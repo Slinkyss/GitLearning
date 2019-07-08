@@ -29,11 +29,11 @@ public class Car {
 	@NotNull
 	@Min(0)
 	@Max(100)
-	@Column(name="Speed")
+	@Column(name="Speed") // Comment
 	private double speed;
 	
 	@NotNull
-	@Min(1888)
+	@Min(1888)// Comment added
 	@Max(2019)
 	@Column(name="Year")
 	private int year;
